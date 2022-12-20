@@ -3,6 +3,7 @@
 This repo contains a sample Databricks Notebook with the latest developer experience updates, including:
 
 * Variable inspection
+* Code formatting
 * Run selected text
 * `pdb` - the interactive Python debugger
 * Code folding
