@@ -1,4 +1,4 @@
-# Highlights of Developing with Databricks Notebooks
+# Upgrades in Developing with Databricks Notebooks
 
 This repo contains a sample Databricks Notebook with the latest developer experience updates, including:
 
