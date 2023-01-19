@@ -7,7 +7,7 @@
 # MAGIC %md
 # MAGIC ### Autocomplete-as-you-type
 # MAGIC <br>
-# MAGIC <img src="https://github.com/databricks/notebook_gallery/blob/main/assets/bordered/autocomplete.gif?raw=true" width=600>
+# MAGIC <img src="https://github.com/databricks/notebook_gallery/blob/main/assets/bordered/autocomplete.gif?raw=true" width=600/>
 
 # COMMAND ----------
 
@@ -21,7 +21,7 @@ import numpy as np
 # MAGIC %md 
 # MAGIC #### Variable inspection on mouse hover
 # MAGIC <br>
-# MAGIC <img src="https://github.com/databricks/notebook_gallery/blob/main/assets/bordered/variableinspection.gif?raw=true" width=600>
+# MAGIC <img src="https://github.com/databricks/notebook_gallery/blob/main/assets/bordered/variableinspection.gif?raw=true" width=600/>
 
 # COMMAND ----------
 
@@ -36,11 +36,11 @@ variable
 # MAGIC 
 # MAGIC Code blocks can be collapsed by clicking the arrow icon next to them:
 # MAGIC 
-# MAGIC <img src="https://github.com/databricks/notebook_gallery/blob/main/assets/bordered/codefold.gif?raw=true" width=600>
+# MAGIC <img src="https://github.com/databricks/notebook_gallery/blob/main/assets/bordered/codefold.gif?raw=true" width=600/>
 # MAGIC 
 # MAGIC Clicking next to a bracket will highlight the corresponding bracket further down in the code:
 # MAGIC 
-# MAGIC <img src="https://github.com/databricks/notebook_gallery/blob/main/assets/bordered/brackets.gif?raw=true" width=600>
+# MAGIC <img src="https://github.com/databricks/notebook_gallery/blob/main/assets/bordered/brackets.gif?raw=true" width=600/>
 
 # COMMAND ----------
 
