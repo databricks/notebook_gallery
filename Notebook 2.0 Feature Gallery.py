@@ -6,7 +6,8 @@
 
 # MAGIC %md
 # MAGIC ### Autocomplete-as-you-type
-# MAGIC ![autocomplete](https://github.com/RafiKurlansik/notebook2/blob/main/assets/autocomplete2.gif?raw=true)
+# MAGIC <br>
+# MAGIC <img src="https://github.com/databricks/notebook_gallery/blob/main/assets/bordered/autocomplete.gif?raw=true" width=600>
 
 # COMMAND ----------
 
@@ -15,12 +16,12 @@ import numpy as np
 # Type the following on the next line: a = np.array([1,2,3])
 
 
-
 # COMMAND ----------
 
 # MAGIC %md 
 # MAGIC #### Variable inspection on mouse hover
-# MAGIC ![var-inspect](https://github.com/RafiKurlansik/notebook2/blob/main/assets/variable_inspection.gif?raw=true)
+# MAGIC <br>
+# MAGIC <img src="https://github.com/databricks/notebook_gallery/blob/main/assets/bordered/variableinspection.gif?raw=true" width=600>
 
 # COMMAND ----------
 
@@ -35,15 +36,15 @@ variable
 # MAGIC 
 # MAGIC Code blocks can be collapsed by clicking the arrow icon next to them:
 # MAGIC 
-# MAGIC ![code-folding](https://github.com/RafiKurlansik/notebook2/blob/main/assets/code_folding.gif?raw=true)
+# MAGIC <img src="https://github.com/databricks/notebook_gallery/blob/main/assets/bordered/codefold.gif?raw=true" width=600>
 # MAGIC 
 # MAGIC Clicking next to a bracket will highlight the corresponding bracket further down in the code:
 # MAGIC 
-# MAGIC ![bracket-matching](https://github.com/RafiKurlansik/notebook2/blob/main/assets/bracket_matching.gif?raw=true)
+# MAGIC <img src="https://github.com/databricks/notebook_gallery/blob/main/assets/bordered/brackets.gif?raw=true" width=600>
 
 # COMMAND ----------
 
-# Collapse and expand code blocks on lines 9, 17, 24 and 31
+# Collapse and expand code blocks on lines 8, 16, 23 and 30
 !pip install folium --quiet
 
 import json
@@ -85,8 +86,8 @@ m
 
 # MAGIC %md
 # MAGIC #### Multi-cursor support
-# MAGIC 
-# MAGIC ![multi-cursor-support](https://github.com/RafiKurlansik/notebook2/blob/main/assets/multi_cursor.gif?raw=true)
+# MAGIC <br>
+# MAGIC <img src="https://github.com/databricks/notebook_gallery/blob/main/assets/bordered/multicursor.gif?raw=true" width=600>
 # MAGIC 
 # MAGIC Monaco supports multiple cursors for fast simultaneous edits. You can add secondary cursors (rendered thinner) with `Alt+Click` on Windows. Each cursor operates independently based on the context it sits in. A common way to add more cursors is with `⌥⌘↓` or `⌥⌘↑` that insert cursors below or above. ([source](https://code.visualstudio.com/Docs/editor/codebasics#_multiple-selections-multicursor))
 
@@ -99,30 +100,19 @@ m
 
 # MAGIC %md 
 # MAGIC #### Column (box) selection
-# MAGIC 
-# MAGIC ![boxselection](https://github.com/RafiKurlansik/notebook2/blob/main/assets/column_selection.gif?raw=true)
+# MAGIC <br>
+# MAGIC <img src="https://github.com/databricks/notebook_gallery/blob/main/assets/bordered/boxselection.gif?raw=true" width=600/>
 # MAGIC 
 # MAGIC Place the cursor in one corner and then hold `Shift+Alt` (or `Shift+option` on Mac) while dragging to the opposite corner. ([source](https://code.visualstudio.com/Docs/editor/codebasics#_column-box-selection))
 
 # COMMAND ----------
 
 print("""
-PassengerId,Name,Sex,Age,SibSp
-1,"Braund, Mr. Owen Harris",male,22.0,1
-2,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",female,38.0,1
-3,"Heikkinen, Miss. Laina",female,26.0,0
-4,"Futrelle, Mrs. Jacques Heath (Lily May Peel)",female,35.0,1
-5,"Allen, Mr. William Henry",male,35.0,0
-6,"Moran, Mr. James",male,,0
-7,"McCarthy, Mr. Timothy J",male,54.0,0
-8,"Palsson, Master. Gosta Leonard",male,2.0,3
-9,"Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",female,27.0,0
-10,"Nasser, Mrs. Nicholas (Adele Achem)",female,14.0,1
-11,"Sandstrom, Miss. Marguerite Rut",female,4.0,1
-12,"Bonnell, Miss. Elizabeth",female,58.0,0
-13,"Saundercock, Mr. William Henry",male,20.0,0
-14,"Andersson, Mr. Anders Johan",male,39.0,1
-15,"Vestrom, Miss. Hulda Amanda Adolfina",female,14.0,0
+"Braund, Mr. Owen Harris",male,22.0,1
+"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",female,38.0,1
+"Heikkinen, Miss. Laina",female,26.0,0
+"Futrelle, Mrs. Jacques Heath (Lily May Peel)",female,35.0,1
+"Allen, Mr. William Henry",male,35.0,0
 """)
 
 # COMMAND ----------
@@ -132,7 +122,7 @@ PassengerId,Name,Sex,Age,SibSp
 # MAGIC 
 # MAGIC Run highlighted text with `Shift + Control + Enter`:
 # MAGIC 
-# MAGIC ![run_selected](https://github.com/RafiKurlansik/notebook2/blob/main/assets/run_selected.gif?raw=true)
+# MAGIC <img src="https://github.com/databricks/notebook_gallery/blob/main/assets/bordered/runselected.gif?raw=true" width=600/>
 
 # COMMAND ----------
 
@@ -147,8 +137,8 @@ print(5)
 
 # MAGIC %md
 # MAGIC #### Toggle Line Comment
-# MAGIC 
-# MAGIC <img src="https://github.com/RafiKurlansik/notebook2/blob/main/assets/togglecomment.gif?raw=true" width=500/>
+# MAGIC <br>
+# MAGIC <img src="https://github.com/databricks/notebook_gallery/blob/main/assets/bordered/togglecomment.gif?raw=true" width=600/>
 # MAGIC 
 # MAGIC We are making commenting easier to help users create clearly documented code faster. Users can now toggle comments on a line of code or for multiple lines of code at once. To do so, select the desired lines of code and hit the shortcut for your operating system.
 # MAGIC 
@@ -168,8 +158,8 @@ print(5)
 
 # MAGIC %md
 # MAGIC #### Block quotes
-# MAGIC 
-# MAGIC <img src="https://github.com/RafiKurlansik/notebook2/blob/main/assets/blockquote.gif?raw=true" width=600>
+# MAGIC <br>
+# MAGIC <img src="https://github.com/databricks/notebook_gallery/blob/main/assets/bordered/blockquotes.gif?raw=true" width=600>
 # MAGIC 
 # MAGIC Notebooks also now support block quotes if your programming language supports it. Users can use these commands to comment a whole block of code at once.
 # MAGIC 
@@ -180,25 +170,19 @@ print(5)
 # COMMAND ----------
 
 # Use Shift+Option+A on the text within print() to put it in quotes
-print(this is a 
+print(''' this is  
 multi-line text 
 that you can put in quotes with
-Shift + Option + A)
+Shift + Option + A ''')
 
 # COMMAND ----------
 
 # MAGIC %md
 # MAGIC ### Python Formatting / Linting
-
-# COMMAND ----------
-
-# MAGIC %md
+# MAGIC <br>
 # MAGIC 
-# MAGIC <img src="https://github.com/RafiKurlansik/notebook2/blob/main/assets/blackformatter2.gif?raw=true" width="500"/>
-
-# COMMAND ----------
-
-# MAGIC %md
+# MAGIC <img src="https://github.com/databricks/notebook_gallery/blob/main/assets/bordered/pythonformatting.gif?raw=true" width=600/>
+# MAGIC 
 # MAGIC [Python Formatter Public Preview Docs](https://docs.databricks.com/notebooks/notebooks-use.html#format-code-cells)
 # MAGIC 
 # MAGIC Databricks now supports Black, a PEP 8 compatible code formatter. Black formats all code the same so you spend less time formatting and more time creating what matters. All Black formatted code looks the same, regardless of what project you are reviewing, so code review goes faster too. To use Black, connect to a cluster on DBR 11.2 or later. Databricks preinstalls Black and Tokenize-rt.
@@ -207,6 +191,7 @@ Shift + Option + A)
 
 # COMMAND ----------
 
+# Use Cmd + Shift + F to format Python code
 def add(a,        b):
     answer  =  a   +       b
 
@@ -317,8 +302,8 @@ print(system.getAccuracy(10, 0), 0)
 
 # MAGIC %md
 # MAGIC ### Side by side diffs in revision history
-# MAGIC 
-# MAGIC ![diffs](https://github.com/RafiKurlansik/notebook2/blob/main/assets/diffs.gif?raw=true)
+# MAGIC <br>
+# MAGIC <img src="https://github.com/RafiKurlansik/notebook2/blob/main/assets/diffs.gif?raw=true" width=800>
 
 # COMMAND ----------
 
