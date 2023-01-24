@@ -1,7 +1,11 @@
 # Databricks notebook source
 # MAGIC %md
 # MAGIC ### Improved code editing with Monaco
+# MAGIC To enable the new editor in the Notebook:
 
+# MAGIC 1. Click your username at the top right of the workspace and select **User Settings** from the drop down.
+# MAGIC 2. Click the **Notebook Settings** tab.
+# MAGIC 3. Check the box next to **Turn on the new notebook editor**.
 # COMMAND ----------
 
 # MAGIC %md
